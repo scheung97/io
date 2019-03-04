@@ -1,0 +1,105 @@
+/*edit id = "text"*/
+#text {
+  background-image: url("https://i.pinimg.com/originals/cf/e7/a7/cfe7a732683b64d3c7eb86df36136521.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#top{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/*-- navbar appearance*/
+/*nav{
+  background-color: #FFFFFF;
+}
+nav li{
+  margin-bottom: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+nav ul{
+  display: inline;
+}
+
+nav a{
+  height: 50px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}*/
+nav ul {
+  display: inline;
+}
+nav ul li{
+  list-style: none;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+nav ul li a{
+  display: block;
+  padding: 24px 14px;
+}
+nav .dropdown{
+  display: block;
+  position: absolute;
+}
+
+header .row{
+  display: flex;
+  align-items: left;
+}
+
+header nav{
+  display: flex;
+  justify-content: flex-end;
+}
+header p{
+  padding: 0 10px;
+  margin-top:25px;
+}
+
+
+/* list class */
+
+/*home page */
+.main-body{
+  /* created with: https://mycolor.space/gradient?ori=to+left+bottom&hex=%23264B82&hex2=%23CB10CE&sub=1 */
+  background-image: linear-gradient(to left bottom, #264b82, #3b4fa1, #634dba, #9540ca, #cb10ce);
+  background-size: auto;
+}
+.home-text{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 250px;
+  margin-bottom: 327px;
+}
+
+/*aboutme page */
+.list {
+  text-align: left;
+  font-size: 14px;
+}
+
+.contact-btn{
+  float: right;
+  color:#000000;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 10px;
+  border: 1px solid#000000;
+  padding: 10px 10px;
+  position: relative
+}
+
+.contact-btn a:active{
+  top: 2px;
+}
