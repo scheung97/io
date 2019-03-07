@@ -1,10 +1,13 @@
-<<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <!--- head: holds all the metadata -->
 <head>
   <title>Spenser Cheung</title>
    <!-- Using Bootstrap --> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!-- Bootstrap Js--><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <!-- Bootstrap Js--><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <!-- Bootstrap Js--> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link rel = "stylesheet" type = "text/css" href = "main.css"/>
   <meta charset = "utf-8">
   <meta name = "author" content="Spenser Cheung">
@@ -13,95 +16,91 @@
 </head>
 <!--- head: holds all the metadata -->
 
-  <body  class = "about-body">
+<body class="about-body">
 
-    <!---navbar -->
+    <!---navbar
     <section>
         <nav>
             <ul>
               <li> <a href = "index.html" class = "button"> Home </a> </li>
               <li> <a href = "projects.html"> Projects </a></li>
-              <li> <a href = "skills.hrml"> Skills </a> </li>
-              <li> <a> Contact Me </a>
-                <ul class = dropdown>
-                  <li> <a href = "mailto: cheung.sp@husky.neu.edu"> Email </a> </li>
-                  <li> <a href = "www.linkedin.com/in/spenser-cheung"> LinkedIn </a> </li>
-                  <li> <a href = "www.github.com/scheung97"> Github </a> </li>
-                  <li> <a href = "./resume/Spenser_Cheung_Resume.pdf"> Resume </a> </li>
-                </ul>
-              </li>
-            </ul>
-            <div class = "contact-btn"><a>Contact Me </a>
+              <li> <a href = "skills.html"> Skills </a> </li>
+               *drop-down stuff here*
             </div>
         </nav>
     </section>
+        -->
+    <!-- NAV BAR WORK IN PROGRESS -->
+            <nav class="my-2 my-md-0 mr-md-3">
+                <ul >
+                    <li> <a href="index.html" class="button"> Home </a> </li>
+                    <li> <a href="projects.html"> Projects </a></li>
+                    <li> <a href="skills.html"> Skills </a> </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" id="navbar"
+                           role="button" data-toggle="dropdown">
+                              Contact Me
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbar">
+                            <a class="dropdown-item" href = "mailto: spenser.cheung1@gmail.com" title = "email" target = "_blank"> Email</a>
+                            <a class = "dropdown-item" href = "www.linkedin.com/in/spenser-cheung" title = "linkedIn" target = "_blank"> LinkedIn</a>
+                            <a class = "dropdown-item" href = "www.github.com/scheung97" title = "github" target = "_blank"> Github</a>
+                            <a class = "dropdown-item" href = "./resume/Spenser_Cheung_Resume.pdf" title = "resume" target = "_blank"> Resume</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+    
+    <!---boot strap site
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="#">Features</a>
+    <a class="p-2 text-dark" href="#">Enterprise</a>
+    <a class="p-2 text-dark" href="#">Support</a>
+    <a class="p-2 text-dark" href="#">Pricing</a>
+  </nav>
+  <a class="btn btn-outline-primary" href="#">Sign up</a>
+</div>
+        -->
 
 
-  <!-- NAV BAR WORK IN PROGRESS
-      <div class = "container-fluid">
-        <div class = navbar-header>
-          <nav class = "navbar-fixed-top myNav">
-            <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
-              <span class = "icon-bar"> </span>
-              <span class = "icon-bar"> </span>
-              <span class = "icon-bar"> </span>
-            </button>
-            <div class = "collapse navbar-collapse" id = "myNavbar">
-              <ul class = "nav navbar-nav">
-                <li> <a href = "index.html"> About Me </a> </li>
-                <li> <a href = "skill.html"> Skills </a> </li>
-                <li> <a href = "projects.html"> Projects </a> </li>
-                <li class = "dropdown">
-                  <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#"><span class = "caret" />Contact Me
-                  </a>
-                  <ul class = "dropdown-menu myNav">
-                    <li><a class = "dropdown-item" href = "mailto: spenser.cheung1@gmail.com" title = "email" target = "_blank"> Email</a> </li>
-                    <li><a class = "dropdown-item" href = "www.linkedin.com/in/spenser-cheung" title = "LinkedIn" target = "_blank"> LinkedIn</a></li>
-                    <li><a class = "dropdown-item" href = "www.github.com/scheung97" title = "Github" target = "_blank"> Github</a></li>
-                    <li><a class = "dropdown-item" href = "./resume/Spenser_Cheung_Resume.pdf" title = "Resume" target = "_blank"> Resume</a> </li>
-                  </ul>
-                </li>
-            </ul>
-          </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-            --->
-
-      <!-- horizontal line -->
-      <hr />
-      <!-- horizontal line -->
+    <!-- NAV BAR WORK IN PROGRESS -->
 
 
-      <!---content--->
-      <section id = "top" >
-        <div class = "container">
-          <img src = "./images/spenser.jpg" alt = "Spenser Cheung" height="300">
-          <h1>
-            HELLO!
-          </h1>
-        </div>
-      </section>
+                <!-- horizontal line -->
+                <br/>
+                <hr />
+                <!-- horizontal line -->
+                <!---content--->
+                <section id="top">
+                    <div class="container">
+                        <img src="./images/spenser.jpg" alt="Spenser Cheung" height="300">
+                        <h1>
+                            HELLO!
+                        </h1>
+                    </div>
+                </section>
 
 
-      <section id = "text"> <!--style = "background-color: rgb(123,65,156)"-->
-        <div class = "container">
-          <p >
-            I am a fourth year Electrical and Computer Engineering student @ NEU in Boston, MA. I am currently working as a Machine Vision Intern at Scientific Systems and Company, Inc. in Woburn, MA. In my spare time, I am working with an amazing group of fellow students to build upon our HackBeanpot2019 project, Loot; a revolutionary commerce platform that utilizes fun game-like swiping gestures to determine a users interest in products.
-            <br><br>
-            <b><u>What I enjoy doing offline:</u></b>
-          </p>
-          <ul class = "list">
-            <li>Playing Volleyball</li>
-            <li>Working out/ Going to the gym</li>
-            <li>Viewing art galleries</li>
-          </ul>
-      </div>
-      </section>
-      <!---content--->
+                <section id="text">
+                    <!--style = "background-color: rgb(123,65,156)"-->
+                    <div class="container">
+                        <p>
+                            I am a fourth year Electrical and Computer Engineering student @ NEU in Boston, MA. I am currently working as a Machine Vision Intern at Scientific Systems and Company, Inc. in Woburn, MA. In my spare time, I am working with an amazing group of fellow students to build upon our HackBeanpot2019 project, Loot; a revolutionary commerce platform that utilizes fun game-like swiping gestures to determine a users interest in products.
+                            <br><br>
+                            <b><u>What I enjoy doing offline:</u></b>
+                        </p>
+                        <ul class="list">
+                            <li>Playing Volleyball</li>
+                            <li>Working out/ Going to the gym</li>
+                            <li>Viewing art galleries</li>
+                        </ul>
+                    </div>
+                </section>
+                <!---content--->
 
-    </body>
+</body>
     <!-- body -->
 
 </html>
