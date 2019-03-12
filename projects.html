@@ -1,14 +1,70 @@
-display images of projects + say what they do
-<br>
-<br>
-<br>
 
-<!-- image w/ link to Loot github -->
-  <div class = "HackBeanpot2019">
-    <a href = "https://github.com/scheung97/Loot"> <img src = "./images/hbeanpot.jpg" width = "200" height = "140" title = "Loot - HackBeanpot2019 Project" alt = "Spenser and teammate at whiteboard"></a>
-  </div>
-<!-- image w/ link to Loot github -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-  <p style = "text-align: center">
-    This text is aligned to the center
-  </p>
+<!--- head: holds all the metadata -->
+<head>
+    <title>Spenser Cheung</title>
+    <!-- Using Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap Js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Bootstrap Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Bootstrap Js-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta charset="utf-8">
+    <meta name="author" content="Spenser Cheung">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<!--- head: holds all the metadata -->
+
+    <body class="about-body">
+
+        <!-- NAV BAR WORK IN PROGRESS
+            Replace w/ BS in second iteration  -> <nav class="navbar navbar-inverse navbar-fixed-top"  (creates a black nav-bar that's fixed to top)
+             -->
+        <nav id="navbar" role="navigation" class="container-fluid">
+            <div class="name">
+                <h3>
+                    Spenser Cheung
+                </h3>
+            </div>
+            <div class="links">
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="aboutme.html">About Me</a></li>
+                    <li> <a href="projects.html"> Projects </a></li>
+                    <li> <a href="skills.html"> Skills </a> </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" id="dropdown-bar"
+                           role="button" data-toggle="dropdown">Contact Me</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-bar">
+                            <a class="dropdown-item" href="mailto:spenser.cheung1@gmail.com" title="email" target="_blank"> Email</a>
+                            <a class="dropdown-item" href="https://linkedin.com/in/spenser-cheung" title="linkedIn" target="_blank"> LinkedIn</a>
+                            <a class="dropdown-item" href="https://github.com/scheung97" title="github" target="_blank"> Github</a>
+                            <a class="dropdown-item" href="./resume/Spenser_Cheung_Resume.pdf" title="resume" target="_blank"> Resume</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--end of navbar-->
+        <br /><br /><br />
+        <p>display images of projects + say what they do </p>
+        <br>
+
+
+        <!-- image w/ link to Loot github -->
+        <div class="HackBeanpot2019">
+            <a href="https://github.com/scheung97/Loot"> <img src="./images/hbeanpot.jpg" width="200" height="140" title="Loot - HackBeanpot2019 Project" alt="Spenser and teammate at whiteboard"></a>
+        </div>
+        <!-- image w/ link to Loot github -->
+
+        <p style="text-align: center">
+            This text is aligned to the center
+        </p>
+    </body>
+</html>

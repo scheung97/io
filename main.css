@@ -23,6 +23,8 @@
     position: fixed;
     background-color:dimgray;
     z-index:1;
+    height:6%;
+    width: 100%;
 }
 nav ul {
   display: inline;
@@ -30,6 +32,7 @@ nav ul {
 nav ul li{
   list-style: none;
   display: inline;
+  text-size-adjust:inherit;
 
 }
 
@@ -73,6 +76,10 @@ nav .dropdown-toggle a{
     padding-top:20px;
     padding-right: 10px; 
     float: right;
+}
+
+.dropdown-item{
+    cursor: pointer; 
 }
 
 /* content of aboutme*/
