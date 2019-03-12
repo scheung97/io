@@ -35,7 +35,7 @@ nav ul li a{
 }
 nav .dropdown-toggle a{
   display: block;
-  position: absolute;
+  position: inherit;
 }
 
 
@@ -92,7 +92,7 @@ nav .dropdown-toggle a{
         height:100%;
         width:100%;
         opacity:0;
-        transition: 0.75s ease;
+        transition-duration: 500ms;
         background-color: lightgrey
     }
 
