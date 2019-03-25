@@ -14,16 +14,16 @@
 }
 
 #top-text{
-    margin: 10px; 
+    margin: 10px;
     display: flex;
     justify-content:center;
     text-shadow:3px 3px #D3D3D3;
 }
 
-/*nav bar tag */ 
+/*nav bar tag */
 #navbar{
     background-color:dimgray;
-    height:6%;
+    height:8%;
     width: 100%;
     position: fixed;
     z-index:1;
@@ -77,12 +77,12 @@ nav .dropdown-toggle a{
 .links{
     padding-bottom:20px;
     padding-top:20px;
-    padding-right: 10px; 
+    padding-right: 10px;
     float: right;
 }
 
 .dropdown-item{
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 /* content of aboutme*/
@@ -95,7 +95,7 @@ nav .dropdown-toggle a{
     .selfie{
         display:block;
         width:100%;
-        height:auto; 
+        height:auto;
         clip-path:circle();
     }
 
@@ -126,6 +126,3 @@ nav .dropdown-toggle a{
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
-
-
-    
