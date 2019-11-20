@@ -66,6 +66,9 @@ nav .dropdown-toggle a{
   margin: 250px;
   margin-bottom: 327px;
 }
+.gif{
+    /* find way to keep orientation of gif consistent with window size*/
+}
 
 
 /*aboutme page top bar  */
