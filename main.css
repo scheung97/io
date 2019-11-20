@@ -84,10 +84,6 @@ nav .dropdown-toggle a{
     float: right;
 }
 
-.dropdown-menu{
-    padding-top:0px;
-}
-
 .dropdown-item{
     cursor: pointer; 
 }
