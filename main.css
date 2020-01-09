@@ -1,6 +1,36 @@
+/*nav bar tag */
+#navbar {
+    background-color: dimgray;
+    height: 6%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul {
+    display: inline;
+}
+
+    nav ul li {
+        list-style: none;
+        display: inline;
+        text-size-adjust: inherit;
+    }
+
+        nav ul li a {
+            padding: 24px 14px;
+            color: #000000;
+        }
+
+nav .dropdown-toggle a {
+    display: block;
+    position: absolute;
+}
+
 /*edit id = "text"*/
 #text {
-  background-image: url("https://i.pinimg.com/originals/cf/e7/a7/cfe7a732683b64d3c7eb86df36136521.jpg");
+  /*background-image: url("https://i.pinimg.com/originals/cf/e7/a7/cfe7a732683b64d3c7eb86df36136521.jpg");*/
+  background-color: grey;
   background-size: cover;
   color: white;
 }
@@ -20,6 +50,7 @@
     text-shadow:3px 3px #D3D3D3;
 }
 
+<<<<<<< HEAD
 /*nav bar tag */
 #navbar{
     background-color:dimgray;
@@ -35,18 +66,9 @@ nav ul li{
   list-style: none;
   display: inline;
   text-size-adjust:inherit;
+=======
+>>>>>>> 6405ba61edcea89b06c0783a1b4d60ca389e27aa
 
-}
-
-nav ul li a{
-  padding: 24px 14px;
-  color:#000000;
-
-}
-nav .dropdown-toggle a{
-  display: block;
-  position: absolute;
-}
 
 
 
@@ -65,6 +87,9 @@ nav .dropdown-toggle a{
   color: #FFFFFF;
   margin: 250px;
   margin-bottom: 327px;
+}
+.gif{
+    /* find way to keep orientation of gif consistent with window size*/
 }
 
 

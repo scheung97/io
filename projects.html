@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -21,50 +21,81 @@
 </head>
 <!--- head: holds all the metadata -->
 
-    <body class="about-body">
+<body class="about-body">
 
-        <!-- NAV BAR WORK IN PROGRESS
-            Replace w/ BS in second iteration  -> <nav class="navbar navbar-inverse navbar-fixed-top"  (creates a black nav-bar that's fixed to top)
-             -->
-        <nav id="navbar" role="navigation" class="container-fluid">
-            <div class="name">
-                <h3>
-                    Spenser Cheung
-                </h3>
-            </div>
-            <div class="links">
-                <ul>
-                    <li> <a href="index.html"> Home </a> </li>
-                    <li> <a href="aboutme.html">About Me</a></li>
-                    <li> <a href="projects.html"> Projects </a></li>
-                    <li> <a href="skills.html"> Skills </a> </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="#" id="dropdown-bar"
-                           role="button" data-toggle="dropdown">Contact Me</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown-bar">
-                            <a class="dropdown-item" href="mailto:spenser.cheung1@gmail.com" title="email" target="_blank"> Email</a>
-                            <a class="dropdown-item" href="https://linkedin.com/in/spenser-cheung" title="linkedIn" target="_blank"> LinkedIn</a>
-                            <a class="dropdown-item" href="https://github.com/scheung97" title="github" target="_blank"> Github</a>
-                            <a class="dropdown-item" href="./resume/Spenser_Cheung_Resume.pdf" title="resume" target="_blank"> Resume</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!--end of navbar-->
-        <br /><br /><br />
-        <p>display images of projects + say what they do </p>
-        <br>
-
-
-        <!-- image w/ link to Loot github -->
-        <div class="HackBeanpot2019">
-            <a href="https://github.com/scheung97/Loot"> <img src="./images/hbeanpot.jpg" width="200" height="140" title="Loot - HackBeanpot2019 Project" alt="Spenser and teammate at whiteboard"></a>
+    <!-- NAV BAR WORK IN PROGRESS
+        Replace w/ BS in second iteration  -> <nav class="navbar navbar-inverse navbar-fixed-top"  (creates a black nav-bar that's fixed to top)
+         -->
+    <nav id="navbar" role="navigation" class="container-fluid">
+        <div class="name">
+            <h3>
+                Spenser Cheung
+            </h3>
         </div>
-        <!-- image w/ link to Loot github -->
+        <div class="links">
+            <ul>
+                <li> <a href="index.html"> Home </a> </li>
+                <li> <a href="aboutme.html">About Me</a></li>
+                <li> <a href="projects.html"> Projects </a></li>
+                <!--<li> <a href="skills.html"> Skills </a> </li>-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" id="dropdown-bar"
+                       role="button" data-toggle="dropdown">Contact Me</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-bar">
+                        <a class="dropdown-item" href="mailto:spenser.cheung1@gmail.com" title="email" target="_blank"> Email</a>
+                        <a class="dropdown-item" href="https://linkedin.com/in/spenser-cheung" title="linkedIn" target="_blank"> LinkedIn</a>
+                        <a class="dropdown-item" href="https://github.com/scheung97" title="github" target="_blank"> Github</a>
+                        <a class="dropdown-item" href="./resume/Spenser_Cheung_Resume.pdf" title="resume" target="_blank"> Resume</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--end of navbar-->
+    <br /><br /><br />
 
+
+<!-- find way to format text and image
+    create a text-box type thing for the project description
+-->
+    <!-- Capstone Project (PANDA-Kids)  -->
+    <div class="PANDA-Kids">
         <p style="text-align: center">
-            This text is aligned to the center
+            <a href="https://github.com/scheung97/PANDA-kids"> <img src="./images/panda.webp" width="200" height="140" title="Fall 2019 Northeastern University Capstone Project" alt="PANDA-Kids" /></a>
+            <br/>
+            Wrote Python code that inputs Speech-to-Text input, and determine which output should be used:
+            Text-to-Speech message or SMS message with Twilio's API.
+            <br/>
         </p>
-    </body>
+    </div>
+
+    <!--  Intro to Image Processing Project  -->
+    <div class="IntroToImageProcessing">
+        <p style="text-align: center">
+            <a href="https://github.com/scheung97/EECE5626_TermProject"> <img src="./images/mustache.jpg" width="200" height="140" title="Image Filtering GUI" alt="Image Processing" /></a>
+            <br/>
+            Designed using Python. Implemented OpenCV to access user's webcam for image capturing, 
+            and for use with mathmatical image filtering(FFT, DFT, and Gaussian Blurring).
+        </p>
+</div>
+
+
+    <!-- Loot project -->
+    <div class="HackBeanpot2019">
+        <p style="text-align: center">
+            <a href="https://github.com/scheung97/Loot"> <img src="./images/hbeanpot.jpg" width="200" height="140" title="Loot - HackBeanpot2019 Project" alt="Spenser and teammate at whiteboard"></a>
+            <br/>
+            <b>Won "Best UX/UI" and "Best Usage of Moltin API" at HackBeanpot2019!</b>
+            <br />
+            My team and I utilized Moltin's E-commerce API to create a shopping application for Android phones; our application implemented swiping features to provide an exciting way for users to discover new items .
+            For this project, wrote pseudocode in Python for a "scoring system", to show proof of concept for a Machine Learning algorithm, that would enable our app to recommend or hide items based on user's past swipe history.
+            I also helped set-up, and manage our item database via Moltin's Dashboard.
+        </p>
+    </div>
+    <!-- image w/ link to Loot github -->
+
+
+
+
+</body>
 </html>
