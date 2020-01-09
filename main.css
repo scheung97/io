@@ -1,7 +1,7 @@
 /*nav bar tag */
 #navbar {
     background-color: dimgray;
-    height: 6%;
+    height: 7%;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -50,31 +50,14 @@ nav .dropdown-toggle a {
     text-shadow:3px 3px #D3D3D3;
 }
 
-/*nav bar tag */
-#navbar{
-    background-color:dimgray;
-    height:8%;
-    width: 100%;
-    position: fixed;
-    z-index:1;
-}
-nav ul {
-  display: inline;
-}
-nav ul li{
-  list-style: none;
-  display: inline;
-  text-size-adjust:inherit;
-
 /*----- list class -----*/
-/*home page */
 
-.index-body{
+/*home page */
+.main-body{
   /* created with: https://mycolor.space/gradient?ori=to+left+bottom&hex=%23264B82&hex2=%23CB10CE&sub=1 */
   background-image: linear-gradient(to left bottom, #264b82, #3b4fa1, #634dba, #9540ca, #cb10ce);
   background-size: auto;
 }
-
 .home-text{
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
@@ -83,7 +66,7 @@ nav ul li{
   margin-bottom: 327px;
 }
 .gif{
-    display: center; /* find way to keep orientation of gif consistent with window size*/
+    align: center /* find way to keep orientation of gif consistent with window size*/
 }
 
 
